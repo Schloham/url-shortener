@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 URL Shortener Microservice by Louis S.
+  h3 Example Usage:
+  p https://#.herokuapp.com/new/https://www.google.com
+  p https://#.herokuapp.com/new/http://foo.com:80
+  h3 Example Output:
+  p { "original_url":"http://foo.com:80", "short_url":"https://#.herokuapp.com/8170" }
+  h3 Usage:
+  p https://#.herokuapp.com/3000S125qUqZl
+  p will redirect to https://www.google.com
